@@ -105,10 +105,10 @@
 				<string>_OSI to XOSI rename - requires SSDT-XOSI.aml</string>
 				<key>Count</key>
 				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
 				<key>Find</key>
 				<data>X09TSQ==</data>
+				<key>Enabled</key>
+				<true/>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -268,24 +268,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AmdTscSync.kext</string>
-				<key>Comment</key>
-				<string>AmdTscSync.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AmdTscSync</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>AppleMCEReporterDisabler.kext</string>
 				<key>Comment</key>
 				<string>AppleMCEReporterDisabler.kext</string>
@@ -311,24 +293,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>IntelBluetoothInjector.kext</string>
-				<key>Comment</key>
-				<string>IntelBluetoothInjector.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -502,60 +466,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
-				<key>Comment</key>
-				<string>VoodooGPIO.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooGPIO</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
-				<key>Comment</key>
-				<string>VoodooI2CServices.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CServices</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
-				<key>Comment</key>
-				<string>VoodooInput.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooInput</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
 				<string>VoodooPS2Keyboard.kext</string>
@@ -610,6 +520,60 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
+				<key>Comment</key>
+				<string>VoodooGPIO.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooGPIO</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
+				<key>Comment</key>
+				<string>VoodooI2CServices.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2CServices</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
+				<key>Comment</key>
+				<string>VoodooInput.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooInput</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Comment</key>
 				<string>AMDRyzenCPUPowerManagement.kext</string>
@@ -646,6 +610,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>BrightnessKeys.kext</string>
 				<key>Comment</key>
 				<string>BrightnessKeys.kext</string>
@@ -671,24 +653,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/ECEnabler</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>FeatureUnlock.kext</string>
-				<key>Comment</key>
-				<string>FeatureUnlock.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/FeatureUnlock</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -743,24 +707,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>SMCLightSensor.kext</string>
-				<key>Comment</key>
-				<string>SMCLightSensor.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCLightSensor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -860,6 +806,66 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 		</array>
+		<key>Quirks</key>
+		<dict>
+			<key>AppleCpuPmCfgLock</key>
+			<false/>
+			<key>AppleXcpmCfgLock</key>
+			<false/>
+			<key>AppleXcpmExtraMsrs</key>
+			<false/>
+			<key>AppleXcpmForceBoost</key>
+			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
+			<key>CustomSMBIOSGuid</key>
+			<false/>
+			<key>DisableIoMapper</key>
+			<false/>
+			<key>DisableIoMapperMapping</key>
+			<false/>
+			<key>DisableLinkeditJettison</key>
+			<true/>
+			<key>DisableRtcChecksum</key>
+			<false/>
+			<key>ExtendBTFeatureFlags</key>
+			<false/>
+			<key>ExternalDiskIcons</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
+			<key>IncreasePciBarSize</key>
+			<false/>
+			<key>LapicKernelPanic</key>
+			<false/>
+			<key>LegacyCommpage</key>
+			<false/>
+			<key>PanicNoKextDump</key>
+			<true/>
+			<key>PowerTimeoutKernelPanic</key>
+			<true/>
+			<key>ProvideCurrentCpuInfo</key>
+			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
+			<key>ThirdPartyDrives</key>
+			<false/>
+			<key>XhciPortLimit</key>
+			<false/>
+		</dict>
+		<key>Scheme</key>
+		<dict>
+			<key>CustomKernel</key>
+			<false/>
+			<key>FuzzyMatch</key>
+			<true/>
+			<key>KernelArch</key>
+			<string>Auto</string>
+			<key>KernelCache</key>
+			<string>Auto</string>
+		</dict>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -1256,7 +1262,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>Base</key>
-				<string>_cpuid_set_info</string>
+				<string>_cpuid_set_info </string>
 				<key>Comment</key>
 				<string>algrey - _cpuid_set_cpufamily - Force CPUFAMILY_INTEL_PENRYN - 11.3 + / 12.0/13.0</string>
 				<key>Count</key>
@@ -1463,66 +1469,6 @@
 				<integer>0</integer>
 			</dict>
 		</array>
-		<key>Quirks</key>
-		<dict>
-			<key>AppleCpuPmCfgLock</key>
-			<false/>
-			<key>AppleXcpmCfgLock</key>
-			<false/>
-			<key>AppleXcpmExtraMsrs</key>
-			<false/>
-			<key>AppleXcpmForceBoost</key>
-			<false/>
-			<key>CustomSMBIOSGuid</key>
-			<false/>
-			<key>CustomPciSerialDevice</key>
-			<false/>
-			<key>DisableIoMapper</key>
-			<false/>
-			<key>DisableIoMapperMapping</key>
-			<false/>
-			<key>DisableLinkeditJettison</key>
-			<true/>
-			<key>DisableRtcChecksum</key>
-			<false/>
-			<key>ExtendBTFeatureFlags</key>
-			<false/>
-			<key>ExternalDiskIcons</key>
-			<false/>
-			<key>ForceAquantiaEthernet</key>
-			<false/>
-			<key>ForceSecureBootScheme</key>
-			<false/>
-			<key>IncreasePciBarSize</key>
-			<false/>
-			<key>LapicKernelPanic</key>
-			<false/>
-			<key>LegacyCommpage</key>
-			<false/>
-			<key>PanicNoKextDump</key>
-			<true/>
-			<key>PowerTimeoutKernelPanic</key>
-			<true/>
-			<key>ProvideCurrentCpuInfo</key>
-			<true/>
-			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
-			<key>ThirdPartyDrives</key>
-			<false/>
-			<key>XhciPortLimit</key>
-			<false/>
-		</dict>
-		<key>Scheme</key>
-		<dict>
-			<key>CustomKernel</key>
-			<false/>
-			<key>FuzzyMatch</key>
-			<true/>
-			<key>KernelArch</key>
-			<string>Auto</string>
-			<key>KernelCache</key>
-			<string>Auto</string>
-		</dict>
 	</dict>
 	<key>Misc</key>
 	<dict>
@@ -1539,7 +1485,7 @@
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
-			<string>Full</string>
+			<string>Disabled</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1547,7 +1493,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
@@ -1602,7 +1548,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
-			<true/>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1614,7 +1560,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>8</integer>
+			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1630,33 +1576,6 @@
 		</dict>
 		<key>Serial</key>
 		<dict>
-			<key>Custom</key>
-			<dict>
-				<key>BaudRate</key>
-				<integer>115200</integer>
-				<key>ClockRate</key>
-				<integer>1843200</integer>
-				<key>DetectCable</key>
-				<false/>
-				<key>ExtendedTxFifoSize</key>
-				<integer>64</integer>
-				<key>FifoControl</key>
-				<integer>7</integer>
-				<key>LineControl</key>
-				<integer>7</integer>
-				<key>PciDeviceInfo</key>
-				<data>/w==</data>
-				<key>RegisterAccessWidth</key>
-				<integer>8</integer>
-				<key>RegisterBase</key>
-				<integer>1016</integer>
-				<key>RegisterStride</key>
-				<integer>1</integer>
-				<key>UseHardwareFlowControl</key>
-				<false/>
-				<key>UseMmio</key>
-				<false/>
-			</dict>
 			<key>Init</key>
 			<false/>
 			<key>Override</key>
@@ -1706,12 +1625,14 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
+				<key>#INFO (prev-lang:kbd)</key>
+				<string>en:252 (ABC), set 656e3a323532</string>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v -vi2c-force-polling debug=0x100 npci=0x2000  keepsyms=1  alcid=3</string>
+				<string>-v -vi2c-force-polling keepsyms=1 debug=0x100 alcid=3</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1729,7 +1650,6 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
-				<string>revcpuname</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -1739,8 +1659,6 @@
 		</dict>
 		<key>LegacyOverwrite</key>
 		<false/>
-		<key>WriteFlash</key>
-		<true/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -1769,6 +1687,8 @@
 				<string>BootOrder</string>
 			</array>
 		</dict>
+		<key>WriteFlash</key>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1780,14 +1700,14 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
+			<key>MLB</key>
+			<string>C02039270CD00001H</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
-			<key>MLB</key>
-			<string>C020204014N0000CB</string>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>DHcal2GN</data>
+			<data>aPt+HA1+</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1795,9 +1715,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CQ2YKP3XY</string>
+			<string>C02DG0PJP3XY</string>
 			<key>SystemUUID</key>
-			<string>34127A60-6938-415B-9BDC-80A50BE0AF01</string>
+			<string>0D344E1C-35A9-4B58-A919-11FB89BA76F7</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1847,10 +1767,10 @@
 			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
-			<key>PointerPollMin</key>
-			<integer>10</integer>
 			<key>PointerPollMax</key>
 			<integer>80</integer>
+			<key>PointerPollMin</key>
+			<integer>10</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -1973,10 +1893,10 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UgaPassThrough</key>
-			<false/>
 			<key>UIScale</key>
 			<integer>0</integer>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
