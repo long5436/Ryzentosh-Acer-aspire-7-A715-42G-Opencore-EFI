@@ -20,13 +20,15 @@
 - Wi-Fi/Bluetooth (Intel AX210)
 - USB Ports, USB-C
 - Keyboard
-- Trackpad I2C, gestures (works in polling mode, kext get from nootedred)
+- Trackpad I2C, gestures ~~(works in polling mode~~, support full now, kext get from nootedred)
 - Audio
+- Headphones
 - Internal graphics acceleration (vcn is currently disabled for bug fixes, kext get from nootedred)
 - Control brightness, sound and touchpad via keyboard keys
 - Battery Status
 - Inbuilt Camera
-- CPU
+- CPU, iGPU
+- Monitor CPU, GPU temperature
 
 ## What's Not Working:
 
@@ -37,7 +39,7 @@
 
 ## Unknown things:
 
-- Headphones: (I didn't test it)
+- Headphones: ~~(I didn't test it)~~ Fixed -> working
 - Sleep: (same as above)
 
 ## SCEENSHOTS:
