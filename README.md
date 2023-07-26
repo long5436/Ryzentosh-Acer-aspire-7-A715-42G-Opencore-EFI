@@ -29,12 +29,12 @@
 - Inbuilt Camera
 - CPU, iGPU
 - Monitor CPU, GPU temperature
+- HDMI: (working, connected to iGPU not GTX1650)
 
 ## What's Not Working:
 
 - ~~GTX 1650:~~ (Not supported in MacOS)
 - ~~Mic:~~ (currently not working)
-- ~~HDMI:~~ (not working, connected to GTX 1650)
 - ~~Fans control:~~ (currently not working)
 
 ## Unknown things:
