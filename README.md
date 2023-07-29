@@ -10,6 +10,7 @@
 | Memory:           | 8GB x 2                        |
 | Graphics:         | AMD Radeon RX Vega 7 (Renoir)  |
 | Wireless Network: | Intel AX210                    |
+| Strorage:         | WD SN530                       |
 | Audio:            | Realtek ALC255                 |
 | Camera:           | HD User Facing                 |
 
