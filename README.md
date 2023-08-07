@@ -14,7 +14,7 @@
 | Audio:            | Realtek ALC255                 |
 | Camera:           | HD User Facing                 |
 
-# Tested on bigsur and monterey
+# Tested on bigsur to ventura
 
 ## What's working:
 
