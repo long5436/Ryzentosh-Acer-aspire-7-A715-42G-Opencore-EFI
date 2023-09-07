@@ -20,10 +20,7 @@
 2. Disable kext "NootedRed.kext", after the setup process after installing MacOS and then turning it back on
 3. Install HoRNDIS-9.2.pkg (used to share ethernet from android phone)
 4. Fix headphones error
-    - Extract ComboJack-master.zip
-    - Cd into ComboJack_Installer
-    - Run the file install.sh in terminal
-    - Reboot
+    - https://github.com/longluuly/AppleALC
 5. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional)
 
 ## What's working:
@@ -34,7 +31,7 @@
 - Trackpad I2C, gestures ~~(works in polling mode~~, support full now, kext get from nootedred)
 - Audio
 - Headphones
-- Internal Microphone: (working with fork of https://github.com/qhuyduong/AppleALC)
+- Internal Microphone: working with fork of https://github.com/qhuyduong/AppleALC, my fork fix headphones https://github.com/longluuly/AppleALC
 - Internal graphics acceleration (vcn is currently disabled for bug fixes, kext get from nootedred)
 - Control brightness, sound and touchpad via keyboard keys
 - Battery Status
