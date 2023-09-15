@@ -20,7 +20,7 @@
 2. Disable kext "NootedRed.kext", after the setup process after installing MacOS and then turning it back on
 3. Install HoRNDIS-9.2.pkg (used to share ethernet from android phone)
 4. Fix headphones error
-    - https://github.com/longluuly/AppleALC
+   - https://github.com/longluuly/AppleALC
 5. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional)
 
 ## What's working:
@@ -53,7 +53,9 @@
 
 ## SCEENSHOTS:
 
+![](images/img10.png)
 ![](images/img9.png)
+![](images/img11.png)
 ![](images/img8.png)
 ![](images/img7.png)
 ![](images/img3.png)
