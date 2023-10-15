@@ -14,6 +14,10 @@
 | Audio:            | Realtek ALC255                 |
 | Camera:           | HD User Facing                 |
 
+## Setup EFI
+
+Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the EFI partition on your computer
+
 ## Installation Instructions
 
 1. Setup bios: Disable fast boot, disable secure boot
@@ -59,10 +63,6 @@
 
 ## SCEENSHOTS:
 
-![](images/img10.png)
-![](images/img9.png)
+![](images/img12.png)
 ![](images/img11.png)
-![](images/img8.png)
 ![](images/img7.png)
-![](images/img3.png)
-![](images/img4.png)
