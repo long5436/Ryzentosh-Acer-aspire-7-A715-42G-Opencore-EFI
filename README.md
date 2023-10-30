@@ -26,7 +26,7 @@ Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the 
 4. Fix headphones and internal microphone error
    - https://github.com/longluuly/AppleALC
 5. Fix External microphone (Headphone microphone) (Option) \
-   5.1. Add VerbStub.kext
+   5.1. Add VerbStub.kext \
    5.2. Extract ComboJack-master.zip \
    5.3. Open ComboJack_Installer \
    5.4. Run `./install` in Terminal \
