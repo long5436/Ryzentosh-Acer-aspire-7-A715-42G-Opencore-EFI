@@ -14,6 +14,9 @@
 | Audio:            | Realtek ALC255                 |
 | Camera:           | HD User Facing                 |
 
+## Setup EFI
+
+Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the EFI partition on your computer
 
 ## Installation Instructions
 
