@@ -14,9 +14,6 @@
 | Audio:            | Realtek ALC255                 |
 | Camera:           | HD User Facing                 |
 
-## Setup EFI
-
-Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the EFI partition on your computer
 
 ## Installation Instructions
 
@@ -26,10 +23,11 @@ Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the 
 4. Fix headphones and internal microphone error
    - https://github.com/longluuly/AppleALC
 5. Fix External microphone (Headphone microphone) \
-   5.1. Extract ComboJack-master.zip \
-   5.2. Open ComboJack_Installer \
-   5.3. Run `./install` in Terminal \
-   5.4. After every time you plug in a headphone, a notification will appear. Please select "Headset" for the headphone microphone to work
+   5.1. Add VerbStub.kext
+   5.2. Extract ComboJack-master.zip \
+   5.3. Open ComboJack_Installer \
+   5.4. Run `./install` in Terminal \
+   5.5. After every time you plug in a headphone, a notification will appear. Please select "Headset" for the headphone microphone to work
 6. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional)
 
 ## What's working:
