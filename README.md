@@ -25,7 +25,7 @@ Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the 
 3. Install HoRNDIS-9.2.pkg (used to share ethernet from android phone)
 4. Fix headphones and internal microphone error
    - https://github.com/longluuly/AppleALC
-5. Fix External microphone (Headphone microphone) \
+5. Fix External microphone (Headphone microphone) (Option) \
    5.1. Add VerbStub.kext
    5.2. Extract ComboJack-master.zip \
    5.3. Open ComboJack_Installer \
