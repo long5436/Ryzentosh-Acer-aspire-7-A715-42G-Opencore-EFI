@@ -14,7 +14,7 @@
 | Audio:            | Realtek ALC255                 |
 | Camera:           | HD User Facing                 |
 
-## Setup EFI
+## Setup EFI (Optional)
 
 Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the EFI partition on your computer
 
@@ -31,7 +31,9 @@ Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the 
    5.3. Open ComboJack_Installer \
    5.4. Run `./install` in Terminal \
    5.5. After every time you plug in a headphone, a notification will appear. Please select "Headset" for the headphone microphone to work
-6. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional)
+6. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional) \
+7. Fix sleep:
+   run `sudo pmset -a hibernatemode 3` in Terminal
 
 ## What's working:
 
@@ -50,6 +52,7 @@ Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the 
 - CPU, iGPU
 - Monitor CPU, GPU temperature
 - HDMI: (working, connected to iGPU not GTX1650)
+- Sleep: Fixed
 
 ## What's Not Working:
 
@@ -60,7 +63,7 @@ Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the 
 ## Unknown things:
 
 - Headphones: ~~(I didn't test it)~~ Fixed -> working
-- Sleep: (same as above)
+- Sleep: ~~(same as above)~~ -> fixed
 
 ## SCEENSHOTS:
 
