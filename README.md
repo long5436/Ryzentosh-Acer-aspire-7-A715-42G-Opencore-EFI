@@ -1,4 +1,4 @@
-# Laptop Acer Aspire 7 Gaming (supported: R6ZR, R4ST, R4XX)
+# Laptop Acer Aspire 7 Gaming (supported: R6ZR, R05G, R4ST, R4XX)
 
 ![alt tag](/images/laptopacergamingaspire.png)
 
