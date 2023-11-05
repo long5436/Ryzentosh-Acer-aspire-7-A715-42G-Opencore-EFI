@@ -8,11 +8,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-ASPIRE7-A71542G-R6ZR.aml</string>
+				<string>SSDT-ASPIRE7-A71542G.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-ASPIRE7-A71542G-R6ZR.aml</string>
+				<string>SSDT-ASPIRE7-A71542G.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -427,24 +427,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>CpuTscSync.kext</string>
-				<key>Comment</key>
-				<string>CpuTscSync.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CpuTscSync</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string>AirportItlwm.kext</string>
@@ -467,7 +449,7 @@
 				<key>Comment</key>
 				<string>AmdTscSync.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AmdTscSync</string>
 				<key>MaxKernel</key>
