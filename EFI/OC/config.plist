@@ -8,11 +8,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-ASPIRE7-A71542G.aml</string>
+				<string>SSDT-ASPIRE7-A71542G-R6ZR.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-ASPIRE7-A71542G.aml</string>
+				<string>SSDT-ASPIRE7-A71542G-R6ZR.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -370,7 +370,7 @@
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
-			<true/>
+			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
@@ -401,11 +401,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
-			<dict>
-				<key>layout-id</key>
-				<integer>80</integer>
-			</dict>
 			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>ATY,DeviceName</key>
@@ -415,6 +410,11 @@
 				<key>model</key>
 				<string>Radeon Vega 7</string>
 			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
+			<dict>
+				<key>layout-id</key>
+				<integer>80</integer>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -423,6 +423,24 @@
 	<dict>
 		<key>Add</key>
 		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CpuTscSync.kext</string>
+				<key>Comment</key>
+				<string>CpuTscSync.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CpuTscSync</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 			<dict>
 				<key>Arch</key>
 				<string>Any</string>
@@ -449,7 +467,7 @@
 				<key>Comment</key>
 				<string>AmdTscSync.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AmdTscSync</string>
 				<key>MaxKernel</key>
@@ -1799,7 +1817,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v darkwake=514 npci=0x3000</string>
+				<string>-v darkwake=0 npci=0x3000</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
