@@ -390,7 +390,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -405,10 +405,6 @@
 		<dict>
 			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>ATY,DeviceName</key>
-				<string>Vega 7</string>
-				<key>ATY,FamilyName</key>
-				<string>Radeon</string>
 				<key>model</key>
 				<string>Radeon Vega 7</string>
 			</dict>
