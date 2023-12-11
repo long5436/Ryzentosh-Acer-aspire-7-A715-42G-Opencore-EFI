@@ -16,10 +16,10 @@
 
 ## Setup EFI
 
-1. Setup rEFInd  (Optional) \
+1. Setup rEFInd (Optional) \
    1.1. Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the EFI partition on your computer \
    1.2. repace reFEInd/BOOT to EFI/BOOT \
-3. If your Aspire 7 has `"R4XX"` after the codename then please add `swd_panic=1` to `boot-args` to fix the bootloop issue (Required)
+2. If your Aspire 7 has `"R4XX"` after the codename then please add `swd_panic=1` to `boot-args` to fix the bootloop issue (Required)
 
 ## Installation Instructions
 
@@ -34,9 +34,18 @@
    5.3. Open ComboJack_Installer \
    5.4. Run `./install` in Terminal \
    5.5. After every time you plug in a headphone, a notification will appear. Please select "Headset" for the headphone microphone to work
-6. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional) 
+6. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional)
 7. Fix sleep:
    run `sudo pmset -a hibernatemode 0` in Terminal
+
+## Fix OpenGL Chromium broswers (New)
+
+1. Disable hardware aceleration
+   ![Alt text](./images/image.png)
+2. Change ANGLE graphics backend to OpenGL
+   ![Alt text](./images/photo_2023-12-05_06-06-23.jpg)
+3. Re-enable hardware aceleration and restart browser
+   ![Alt text](images/image2.png)
 
 ## What's working:
 
