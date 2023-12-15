@@ -392,7 +392,7 @@
 			<key>ResizeAppleGpuBars</key>
 			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
-			<true/>
+			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
@@ -403,11 +403,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>model</key>
-				<string>Radeon Vega 7</string>
-			</dict>
 			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
 			<dict>
 				<key>layout-id</key>
@@ -432,24 +427,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AmdTscSync.kext</string>
-				<key>Comment</key>
-				<string>AmdTscSync.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AmdTscSync</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -677,6 +654,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
+				<key>Comment</key>
+				<string>VoodooPS2Keyboard.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Keyboard</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Comment</key>
 				<string>VoodooGPIO.kext</string>
@@ -720,24 +715,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
-				<key>Comment</key>
-				<string>VoodooPS2Keyboard.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Keyboard</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -846,6 +823,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2CHID</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CpuTscSyncSeey6.kext</string>
+				<key>Comment</key>
+				<string>CpuTscSyncSeey6.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CpuTscSync</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1521,7 +1516,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
 				<key>Identifier</key>
@@ -1551,7 +1546,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
 				<key>Identifier</key>
@@ -1587,8 +1582,6 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
-			<key>DisableIoMapperMapping</key>
 			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
@@ -1647,8 +1640,6 @@
 			<false/>
 			<key>HideAuxiliary</key>
 			<true/>
-			<key>InstanceIdentifier</key>
-			<string></string>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -1660,7 +1651,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Blackosx\BsxM1</string>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1741,6 +1732,33 @@
 		</dict>
 		<key>Serial</key>
 		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>3</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
 			<key>Init</key>
 			<false/>
 			<key>Override</key>
@@ -1797,7 +1815,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v darkwake=0 npci=0x3000</string>
+				<string>-v keepsyms=1 debug=0x100 swd_panic=1 npci=0x3000</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2054,24 +2072,20 @@
 		</dict>
 		<key>Output</key>
 		<dict>
-			<key>ClearScreenOnModeSwitch</key>
-			<false/>
 			<key>ConsoleFont</key>
 			<string></string>
+			<key>ClearScreenOnModeSwitch</key>
+			<false/>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
-			<key>GopBurstMode</key>
-			<false/>
 			<key>GopPassThrough</key>
 			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
-			<key>InitialMode</key>
-			<string>Auto</string>
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>ReconnectGraphicsOnConnect</key>
@@ -2127,8 +2141,6 @@
 			<false/>
 			<key>OSInfo</key>
 			<false/>
-			<key>PciIo</key>
-			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
 		</dict>
@@ -2158,10 +2170,6 @@
 			<true/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
-			<key>ResizeUsePciRbIo</key>
-			<false/>
-			<key>ShimRetainProtocol</key>
-			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>

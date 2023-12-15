@@ -19,7 +19,7 @@
 1. Setup rEFInd  (Optional) \
    1.1. Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the EFI partition on your computer \
    1.2. repace reFEInd/BOOT to EFI/BOOT \
-3. If your Aspire 7 has `"R4XX"` after the codename then please add `swd_panic=1` to `boot-args` to fix the bootloop issue (Required)
+3. If your Aspire 7 has `"R4XX"` after the codename then please add `keepsyms=1 debug=0x100 swd_panic=1` to `boot-args` to fix the bootloop issue (Required)
 
 ## Installation Instructions
 
@@ -69,7 +69,16 @@
 - Headphones: ~~(I didn't test it)~~ Fixed -> working
 - Sleep: ~~(same as above)~~ -> fixed
 
-## SCEENSHOTS:
+## Thanks all tester
+- R4XX: Phạm Sáng Tỏ: [sangto2906](https://github.com/sangto2906)
+- R05G: Phạm Khôi Nguyên
+
+## Thanks
+https://github.com/Seey6/CpuTscSync \
+https://github.com/ChefKissInc/NootedRed \
+https://github.com/acidanthera
+
+## SCEENSHOTS:ß
 
 ![](images/img12.png)
 ![](images/img11.png)
