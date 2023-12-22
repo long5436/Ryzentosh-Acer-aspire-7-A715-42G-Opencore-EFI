@@ -24,7 +24,7 @@
 ## Installation Instructions
 
 1. Setup bios: Disable fast boot, disable secure boot
-2. Disable kext "NootedRed.kext", after the setup process after installing MacOS and then turning it back on
+2. Disable kext "NootedRed.kext", after the setup process after installing MacOS and then Enable it back on
 3. Install HoRNDIS-9.2.pkg (used to share ethernet from android phone) (Optional)
 4. Fix headphones and internal microphone error
    - https://github.com/longluuly/AppleALC
