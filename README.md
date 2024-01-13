@@ -56,13 +56,14 @@
 - Monitor CPU, GPU temperature
 - HDMI: (working, connected to iGPU not GTX1650)
 - Sleep: Fixed
+- Black screen when wake after sleeping too long: Fixed
 
 ## What's Not Working:
 
 - ~~GTX 1650:~~ (Not supported in MacOS)
 - ~~Internal Microphone: (currently not working)~~ Fixed -> working
 - ~~Fans control:~~ (currently not working)
-- ~~Wake:~~ The screen cannot be turned back on if it is asleep for too long
+- ~~Wake: The screen cannot be turned back on if it is asleep for too long~~  -> fixed by [gorouflex](https://github.com/gorouflex), test by [sangto2906](https://github.com/sangto2906)
 
 ## Unknown things:
 
@@ -76,7 +77,8 @@
 ## Thanks
 https://github.com/Seey6/CpuTscSync \
 https://github.com/ChefKissInc/NootedRed \
-https://github.com/acidanthera
+https://github.com/acidanthera \
+https://github.com/gorouflex 
 
 ## SCEENSHOTS:ß
 
