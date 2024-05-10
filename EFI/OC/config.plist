@@ -8,11 +8,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-ASPIRE7-A71542G.aml</string>
+				<string>SSDT-ASPIRE7-A715-42G.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-ASPIRE7-A71542G.aml</string>
+				<string>SSDT-ASPIRE7-A715-42G.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -1760,7 +1760,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>

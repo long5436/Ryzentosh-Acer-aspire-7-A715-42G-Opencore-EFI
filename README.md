@@ -1,8 +1,13 @@
-# Laptop Acer Aspire 7 Gaming (supported: R6ZR, R05G, R4ST, R4XX)
-
+# Laptop Acer Aspire 7 Gaming
 ![alt tag](/images/laptopacergamingaspire.png)
 
-## SYSTEM
+Supported
+- Aspire 7 A715-42G-R6ZR
+- Aspire 7 A715-42G-R05G
+- Aspire 7 A715-42G-R4ST
+- Aspire 7 A715-42G-R4XX (Some machines with this code may have problems booting)
+
+## SYSTEM INFOMATION
 
 |                   |                                |
 | ----------------- | ------------------------------ |
@@ -15,8 +20,8 @@
 | Camera:           | HD User Facing                 |
 
 ## Setup EFI
-
-1. Setup rEFInd  (Optional) \
+1. Copy the `EFI` folder to your EFI partition
+2. Setup rEFInd  (Optional) \
    1.1. Edit the `refind.conf` configuration in `EFI/BOOT/refind.conf` according to the EFI partition on your computer \
    1.2. repace reFEInd/BOOT to EFI/BOOT \
 3. If your Aspire 7 has `"R4XX"` after the codename then please add `keepsyms=1 debug=0x100 swd_panic=1` to `boot-args` to fix the bootloop issue (Required)
@@ -24,7 +29,7 @@
 ## Installation Instructions
 
 1. Setup bios: Disable fast boot, disable secure boot
-2. Disable kext "NootedRed.kext", after the setup process after installing MacOS and then Enable it back on
+2. Disabled kext "NootedRed.kext", after the setup process after installing MacOS and then Enabled it back on
 3. Install HoRNDIS-9.2.pkg (used to share ethernet from android phone) (Optional)
 4. Fix headphones and internal microphone error
    - https://github.com/longluuly/AppleALC
@@ -34,7 +39,7 @@
    5.3. Open ComboJack_Installer \
    5.4. Run `./install` in Terminal \
    5.5. After every time you plug in a headphone, a notification will appear. Please select "Headset" for the headphone microphone to work
-6. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Optional) 
+6. Increase nvram using https://github.com/DavidS95/Smokeless_UMAF (Recommend):  Just increasing it to 768MB is enough, or 2GB if you want. But there won't be much difference
 
 
 ## What's working:
@@ -68,6 +73,9 @@
 
 - Headphones: ~~(I didn't test it)~~ Fixed -> working
 - Sleep: ~~(same as above)~~ -> fixed
+
+## Troubleshoot:
+- If the machines codes listed above fail to boot, it may be due to an SSD incompatibility issue. If this happens, check your ssd brand and see if it supports it, if not then you need to replace the ssd with a new one.
 
 ## Thanks all tester
 - R4XX: Phạm Sáng Tỏ: [sangto2906](https://github.com/sangto2906)
